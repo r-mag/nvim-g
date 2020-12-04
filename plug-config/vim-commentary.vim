@@ -9,3 +9,4 @@ function! Comment()
 " vnoremap <silent> <space>/ :call Comment()
 " noremap <silent> <C-/> :call Comment()
 noremap ++ :call Comment()<CR>
+

@@ -14,10 +14,13 @@ nmap <leader>gs :G<CR>
 nnoremap <leader>o o<Esc>^Da
 nnoremap <leader>O O<Esc>^Da
 
-" this is broken but I still want it
 " Better nav for omnicomplete
- inoremap <expr> <c-j> ("\<C-n>")
- inoremap <expr> <c-k> ("\<C-p>")
+" 11 bound to C-j in alacritty
+" inoremap <expr>11 pumvisible() ?  "\<C-n>" : 11 
+" inoremap <expr>11 pumvisible() ?  "\<C-n>" : <C-j>
+" inoremap 11 <C-n> 
+" inoremap <expr> <C-j> ("\<C-n>")
+inoremap <expr> <c-k> ("\<C-p>")
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>
@@ -50,8 +53,8 @@ nnoremap <S-TAB> :bprevious<CR>
 " Alternate way to save
 noremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
-noremap <C-S-s> :wall<CR>
-inoremap <C-S-s> <Esc>:wall<CR>a
+noremap -- :wall<CR>
+			
 
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
@@ -60,8 +63,16 @@ nnoremap <C-Q> :wq!<CR>
 "nnoremap <C-c> <Esc>
 "
 " <TAB>: completion.
+" inoremap 11 <C-n>
 " inoremap <expr><TAB> pumvisible() ? "\<C-j>" : "\<TAB>"
-inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <expr><C-j> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <expr>11 pumvisible() ?  "\<C-n>" : 11 
+" inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <expr><TAB> pumvisible() ? <C-n> : <TAB>
+" inoremap <TAB>  <C-n> 
+" inoremap <TAB>  "foo"
+
+
 
 " Better tabbing
 vnoremap < <gv

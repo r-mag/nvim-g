@@ -64,7 +64,6 @@ source /etc/xdg/nvim/themes/gruvbox.vim
 source /etc/xdg/nvim/themes/airline.vim
 
 
-
 " Automatically install missing plugins on startup
 autocmd VimEnter *
 			\  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
