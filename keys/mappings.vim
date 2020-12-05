@@ -71,8 +71,7 @@ nnoremap <C-Q> :wq!<CR>
 " inoremap <expr><TAB> pumvisible() ? <C-n> : <TAB>
 " inoremap <TAB>  <C-n> 
 " inoremap <TAB>  "foo"
-
-
+inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Better tabbing
 vnoremap < <gv

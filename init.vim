@@ -25,11 +25,13 @@ Plug 'lambdalisue/suda.vim'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
+Plug 'adelarsq/vim-matchit'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
-Plug 'adelarsq/vim-matchit'
+Plug 'srcery-colors/srcery-vim'
+Plug 'branwright1/salvation-vim'
 " Plug 'junegunn/gv.vim'
 "Plug 'scrooloose/NERDTree'
 "Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
@@ -60,8 +62,9 @@ source /etc/xdg/nvim/plug-config/signify.vim
 " source /etc/xdg/nvim/plug-config/rainbow.vim
 "source /etc/xdg/nvim/themes/nord.vim
 " source /etc/xdg/nvim/themes/onedark.vim
-source /etc/xdg/nvim/themes/gruvbox.vim
-source /etc/xdg/nvim/themes/airline.vim
+" source /etc/xdg/nvim/themes/gruvbox.vim
+" source /etc/xdg/nvim/themes/airline.vim
+source /etc/xdg/nvim/themes/current_theme.vim
 
 
 " Automatically install missing plugins on startup

@@ -1,4 +1,32 @@
-" enable tabline
+
+" " gruvbox
+let g:gruvbox_contrast_dark='hard'
+" let g:gruvbox_contrast_light='hard'
+
+colorscheme gruvbox
+" set bg=light
+
+
+
+
+" colorscheme srcery
+" colorscheme salvation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+" airline
+ " enable tabline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = ''
@@ -11,8 +39,8 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
 " Switch to your current theme
- " let g:airline_theme = 'gruvbox'
- let g:airline_theme = 'srcery'
+ let g:airline_theme = 'gruvbox'
+ " let g:airline_theme = 'srcery'
 " let g:airline_theme = 'onedark'
 
 " Always show tabs
