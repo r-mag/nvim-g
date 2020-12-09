@@ -53,8 +53,8 @@ nnoremap <S-TAB> :bprevious<CR>
 " Alternate way to save
 noremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
-noremap -- :wall<CR>
-			
+noremap ~~ :wall<CR>
+inoremap ~~ <Esc>:wall<CR>a
 
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
@@ -89,7 +89,7 @@ nnoremap <C-l> <C-w>l
 " unhighlight search word 
 map <silent><Esc>  :noh<CR>
 
-map <C-S-f> <Esc> :Rg<Space>
+map <C-S-f> <Esc> :Rg!<Space>
 
 
 
@@ -104,8 +104,8 @@ set ignorecase
 set smartcase
 
 nnoremap gll oconsole.log("LINE: <C-r>=line('.')<Esc>","")<Esc>F"i
+nnoremap glll oconsole.log("LINE2: <C-r>=line('.')<Esc>  ",)<Esc>F"lpF"hp<Esc>j
 
-nnoremap glll oconsole.log("LINE2: <C-r>=line('.')<Esc> _ ",)<Esc>F,pF_pba<Esc>j
 
 " func LogIt()
 "   let currentWord = expand("<cword>")

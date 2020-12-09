@@ -32,6 +32,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'srcery-colors/srcery-vim'
 Plug 'branwright1/salvation-vim'
+Plug 'tomasr/molokai'
 " Plug 'junegunn/gv.vim'
 "Plug 'scrooloose/NERDTree'
 "Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files

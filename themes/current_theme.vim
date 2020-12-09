@@ -3,7 +3,7 @@
 let g:gruvbox_contrast_dark='hard'
 " let g:gruvbox_contrast_light='hard'
 
-colorscheme gruvbox
+" colorscheme gruvbox
 " set bg=light
 
 
@@ -13,7 +13,9 @@ colorscheme gruvbox
 " colorscheme salvation
 
 
-
+colorscheme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
 
 
 
@@ -39,9 +41,9 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
 " Switch to your current theme
- let g:airline_theme = 'gruvbox'
+ " let g:airline_theme = 'gruvbox'
  " let g:airline_theme = 'srcery'
-" let g:airline_theme = 'onedark'
+let g:airline_theme = 'onedark'
 
 " Always show tabs
  set showtabline=2
